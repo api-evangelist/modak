@@ -1,7 +1,26 @@
 aid: modak
 name: Modak
-description: 'Modak is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Modak (Modak Makers) is a US consumer fintech that offers a family money-management
+  app built around a free Visa debit card for kids and teens. Parents can assign chores
+  and automate allowance, set savings goals with reward boosts, and use co-parenting
+  tools, gift links, ATM access, bill splitting, and spending controls such as instant
+  alerts, card freeze, and biometric security. Kids earn MBX reward points through
+  daily steps and challenges that convert to pocket money, so they learn to spend,
+  save, and manage money in real life. Modak is delivered as a mobile consumer
+  application and does not publish a public developer API, SDK, or developer portal.
+  Backed by GGV Capital.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.modakmakers.com/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/modak/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Consumer
+- Banking
+- Debit Cards
+- Kids
+- Allowance
+- Personal Finance
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.modakmakers.com/
+- type: Support
+  url: https://www.modakmakers.com/support
+- type: TermsOfService
+  url: https://www.modakmakers.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.modakmakers.com/legal/privacy
+- type: DomainSecurity
+  url: security/modak-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -9,6 +9,17 @@ description: 'Modak (Modak Makers) is a US consumer fintech that offers a family
   save, and manage money in real life. Modak is delivered as a mobile consumer
   application and does not publish a public developer API, SDK, or developer portal.
   Backed by GGV Capital.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
